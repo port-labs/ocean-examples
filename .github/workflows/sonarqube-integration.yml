@@ -1,8 +1,11 @@
 name: SonarQube Exporter Workflow
 
+# This workflow responsible for running SonarQube exporter.
+#
 # Docs - https://docs.getport.io/build-your-software-catalog/sync-data-to-catalog/code-quality-security/sonarqube
-# Make sure to configure the following secrets
-# Secrets:
+#
+# Make sure to configure the following secrets:
+#
 # OCEAN__INTEGRATION__CONFIG__SONAR_API_TOKEN - The SonarQube API token
 # OCEAN__INTEGRATION__CONFIG__SONAR_ORGANIZATION_ID - The SonarQube organization ID
 # OCEAN__INTEGRATION__CONFIG__SONAR_URL - The SonarQube URL e.g. https://sonarcloud.io
